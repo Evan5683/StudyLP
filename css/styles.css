@@ -1,0 +1,21 @@
+canvas {
+    background-image: url('assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* 使 canvas 至少覆盖整个视口高度 */
+}
+
+
+body {
+    background-image: url('../assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#siteLogo {
+    height: 100px; /* 控制 logo 的高度，宽度将按比例自动调整 */
+    margin: 10px 0; /* 上下边距为 10px，左右为 0 */
+}

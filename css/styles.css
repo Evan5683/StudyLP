@@ -325,3 +325,40 @@ button:hover {
     height: auto;
   }
 }
+.footer {
+  background-color: #000; /* 黑色背景 */
+  color: #fff; /* 白色文字 */
+  font-family: Arial, sans-serif; /* 字体风格 */
+  padding: 20px; /* 内边距 */
+  font-size: 12px; /* 文字大小 */
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-qr img {
+  width: 100px; /* 调整二维码大小 */
+}
+
+.footer-info a {
+  color: #fff; /* 链接颜色 */
+  text-decoration: none; /* 去除下划线 */
+}
+
+.footer-info a:hover {
+  text-decoration: underline; /* 鼠标悬停时下划线 */
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* 小屏幕上垂直排列 */
+    align-items: start;
+  }
+
+  .footer-qr img {
+    margin-bottom: 10px; /* 在二维码和文本间添加间距 */
+  }
+}

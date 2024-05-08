@@ -19,7 +19,7 @@ body {
   top: 0; /* 顶部对齐 */
   left: 0; /* 左边对齐 */
   right: 0; /* 右边对齐 */
-  z-index: 1000; /* 确保标题栏在最上层 */
+  z-index: 2000; /* 确保标题栏在最上层 */
 }
 
 .logo-container img {
